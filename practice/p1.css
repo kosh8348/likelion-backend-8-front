@@ -1,0 +1,12 @@
+/* CSS를 작성해 주세요 */
+
+/* text-align */
+.name-elem-me {
+    text-align: end;
+}
+
+/* background-color */
+.message-me {
+    text-align: end;
+    background-color: yellow;
+}
