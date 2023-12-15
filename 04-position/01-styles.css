@@ -1,7 +1,34 @@
+body {
+    margin: 50px;
+}
+
 .box {
     background-color: blue;
     color: white;
     width: 100px;
     height: 100px;
     box-sizing: border-box;
+}
+
+/* relative */
+.relative {
+    background-color: green;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+
+/* absolute */
+.absolute {
+    background-color: yellowgreen;
+    position: absolute;
+    left: 450px;
+    top: 200;
+}
+
+#big-box {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: grey;
 }
